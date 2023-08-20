@@ -27,7 +27,7 @@ const typeOrmModuleOptions = {
 
 @Module({
   imports: [
-    TypeOrmModule.forRootAsync(typeOrmModuleOptions), //
+    TypeOrmModule.forRootAsync(typeOrmModuleOptions), // syncronize ORM entity with DB table setting
     // TypeOrmModule.forRoot({
     //   type: 'mysql',
     //   // host: config.MYSQL.HOST,
