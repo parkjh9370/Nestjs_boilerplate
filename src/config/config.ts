@@ -20,6 +20,7 @@ function required(key: string, defaultValue = ''): string {
 
 export const config = {
   NODE_ENV: required('NODE_ENV'),
+  PORT: parseInt(required('PORT')),
   MYSQL: {
     HOST: required('MYSQL_HOST'),
     PORT: required('MYSQL_PORT'),
