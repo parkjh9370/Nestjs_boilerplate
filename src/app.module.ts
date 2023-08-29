@@ -16,7 +16,8 @@ const typeOrmModuleOptions = {
     database: 'boilerplate',
     synchronize: true,
     entities: [
-      __dirname + '/**/entities/*Entity{.ts,.js}',
+      // TODO: 파일명 리팩토링
+      __dirname + '/**/entities/*entity{.ts,.js}',
       __dirname + '/**/entities/*View{.ts,.js}',
     ],
     autoLoadEntities: true,

@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { User } from '../entity/user.entity';
+import { User } from '../entities/user.entity';
 
 export class FindUserResDto {
   @ApiProperty({ required: true })
